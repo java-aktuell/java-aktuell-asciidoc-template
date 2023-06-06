@@ -1,0 +1,117 @@
+= Hauptüberschrift
+Vorname Nachname (Firma) <email@email.email>
+v1.0, 2023-06-05: Rohentwurf
+
+// Die folgenden Attribute darfst Du NICHT verändern:
+:doctype: article
+:table-caption: Tabelle
+:listing-caption: Listing
+:figure-caption: Abbildung
+:source-language: java
+:source-indent: no
+:source-highlighter: rouge
+:reproducible:
+
+// Die folgenden Attribute darfst Du gerne anpassen:
+:imagesdir: .
+
+[abstract]
+Dies ist der Vorlauftext des Artikels, der in wenigen Sätzen beschreibt, welche Themen die Lesenden in Deinem Artikel erwarten.
+
+
+== Das ist eine Zwischenüberschrift
+
+Nun folgt der eigentliche Artikeltext. Bitte schreibe im Fließtext und gebe die Zeilenschaltung nur am Ende eines Absatzes ein. Zwischen Absätzen verwende bitte eine Leerzeile. Die automatische Trennung bitte ausschalten.
+
+Text kann je nach Bedarf *fett* oder _kursiv_ oder *_fett und kursiv_* formatiert werden. Befehle oder ähnliches im Fliesstext können in `Monospace` geschrieben werden.
+
+
+== Tabellen formatieren
+
+Für Tabellen verwende bitte die Tabellenfunktion (keine TABs).
+
+.Überschrift der Tabelle
+|===
+|Überschrift Spalte 1 |Überschrift Spalte 2
+
+|Zelle in Spalte 1, Zeile 2
+|Zelle in Spalte 2, Zeile 2
+
+|Zelle in Spalte 1, Zeile 3
+|Zelle in Spalte 2, Zeile 3
+
+|Zelle in Spalte 1, Zeile 4
+|Zelle in Spalte 2, Zeile 4
+|===
+
+
+== Listings einfügen
+
+So sieht ein Listing aus, bitte gebe stets einen Textbezug mit an (bspw. „siehe Listing 1“).
+
+.Direkt im Dokument eingebetteter Quelltext
+----
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
+----
+
+Der Quelltext für das Listing kann alternativ auch aus einer Datei eingelesen werden, siehe Listing 2.
+
+.Komplett aus einer externen Datei eingebundener Quelltext
+----
+include::HelloWorld.java[]
+----
+
+Wenn nur ein Ausschnitt aus der angegebenen Datei eingebunden werden soll, so kann dieser mit Zeilennummern angegeben werden. Siehe Listing 3.
+
+.Aus einer externen Datei eingebundene Ausschnitte
+----
+include::HelloWorld.java[lines=2..4]
+----
+
+Beachte bitte, dass AsciiDoc die Beschreibung über dem Listing anzeigt. In der _Java aktuell_ erscheint die Beschreibung unter dem Listing, daher "Listingunterschrift"!
+
+
+== Quellenangaben und Webseiten
+
+Quellenangaben <<TestQuelle>> und Links auf Webseiten <<JavaAktuell>>  sollten in zwei spitzen Klammern eine eindeutige ID verwenden, die am Ende des Artikels aufgelistet und dort mit den Details versehen werden. Die eindeutige ID kann mehrfach verwendet werden, um auf die gleiche Quelle hinzuweisen.
+
+
+== Bilder einbinden
+
+Hier folgt ein Beispiel für eine Abbildung, bitte gebe stets einen Textbezug mit an (bspw. „siehe Abbildung 1“). Bitte speichere die Abbildung separat im Format TIF oder JPEG in möglichst hoher Auflösung ab. EPS mit 300 dpi ist ebenfalls möglich. Wichtig ist die Bildunterschrift mit Copyright-Hinweis!
+
+.Dies ist die Bildunterschrift (© [Name, Referenz oder Quelle])
+image::java_aktuell.png[]
+
+
+== Aufzählungen
+
+Dieser Satz leitet eine nummerierte Aufzählung ein:
+
+. Punkt 1
+. Punkt 2
+. Punkt 3
+
+Und dieser Satz leitet eine nicht nummerierte Aufzählung ein:
+
+* Punkt 1
+* Punkt 2
+* Punkt 3
+
+
+[bibliography]
+== Quellen
+
+Die Auflistung der Quellenangaben beginnt in drei eckigen Klammern mit einer Kombination aus der im Artikel verwendeten eindeutigen ID und, mit Komma getrennt, einer fortlaufenden Zahl. Diese Zahl wird an der richtigen Stelle im Artikel als Verweis verwendet. So muss bei einer Neu-Numerierung nur diese eine Stelle angepasst werden. Anschliessend Text und Links wie gewünscht.
+
+- [[[TestQuelle,1]]] Autor(in) (Jahr): Titel. Verlag, Ort
+- [[[JavaAktuell,2]]] Java aktuell Website: link:https://www.ijug.eu/de/java-aktuell/zeitschrift/[]
+
+
+== Über den Autoren/die Autorin
+
+Hier hast Du die Möglichkeit, dich selbst in wenigen Sätzen zu präsentieren. Bitte verwende hierfür maximal 600 Zeichen inklusive Leerzeichen und schicke ein digitales Autorenfoto mit.
