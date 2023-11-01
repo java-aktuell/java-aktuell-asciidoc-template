@@ -6,7 +6,7 @@
 - Die eigentliche Vorlage befindet sich in der Datei link:article.adoc[article.adoc]. Alle anderen Dateien kannst du ignorieren.
 - Wenn du zusammen mit einen oder mehreren anderen Autoren am Artikel arbeitest, so kannst du diese in Zeile 2 mit Semikolon `;` getrennt aufführen. Bitte nicht auf mehrere Zeilen verteilen!
 - Wenn du möchtest, kannst du für deine Bilder ein eigenes Verzeichnis anlegen. Passe dann das Attribut `:imagesdir:` entsprechend an. Verwende immer relative Verzeichnisangaben, niemals absolute.
-- Vergiss nicht, beim Einreichen alle nötigen Dateien (Bilder, Quelltext, etc.) mitzuschicken. Verwende dazu entweder eine ZIP-Datei per E-Mail oder ein GitHub-Repo. Ist das GitHub-Repo privat, Lade bitte link:https://github.com/McPringle[Marcus Fihlon] mit entsprechenden Berechtigungen ein.
+- Vergiss nicht, beim Einreichen alle nötigen Dateien (Bilder, Quelltext, etc.) mitzuschicken. Verwende dazu entweder eine ZIP-Datei per E-Mail oder ein GitHub-Repo. Ist das GitHub-Repo privat, lade bitte link:https://github.com/McPringle[Marcus Fihlon] mit entsprechenden Berechtigungen ein.
 
 
 == Informationen für die Redaktion
