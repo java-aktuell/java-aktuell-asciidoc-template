@@ -1,16 +1,16 @@
 = _**Java** aktuell_ Artikelvorlage im Asiidoc Format
 :reproducible:
 
-Die Vorlage befindet sich in der Datei link:article.adoc[article.adoc].
+== Informationen für Autoren
+
+- Die eigentliche Vorlage befindet sich in der Datei link:article.adoc[article.adoc]. Alle anderen Dateien kannst du ignorieren.
+- Wenn du zusammen mit einen oder mehreren anderen Autoren am Artikel arbeitest, so kannst du diese in Zeile 2 mit Semikolon `;` getrennt aufführen. Bitte nicht auf mehrere Zeilen verteilen!
+- Wenn du möchtest, kannst du für deine Bilder ein eigenes Verzeichnis anlegen. Passe dann das Attribut `:imagesdir:` entsprechend an. Verwende immer relative Verzeichnisangaben, niemals absolute.
+- Vergiss nicht, beim Einreichen alle nötigen Dateien (Bilder, Quelltext, etc.) mitzuschicken. Verwende dazu entweder eine ZIP-Datei per E-Mail oder ein GitHub-Repo. Ist das GitHub-Repo privat, Lade bitte link:https://github.com/McPringle[Marcus Fihlon] mit entsprechenden Berechtigungen ein.
 
 
-== Wichtige Hinweise
+== Informationen für die Redaktion
 
-- Wenn mehrere Autoren am Artikel arbeiten, so können diese in Zeile 2 mit Semikolon `;` getrennt aufgeführt werden. Bitte nicht auf mehrere Zeilen verteilen!
+=== Ausgabe-Dateien generieren
 
-- Wenn Du möchtest, kannst Du für deine Bilder ein eigenes Verzeichnis anlegen. Passe dann das Attribut `:imagesdir:` entsprechend an. Verwende immer relative Verzeichnisangaben, niemals absolute.
-
-
-== Ausgabe-Dateien generieren
-
-Um aus einer Asciidoc-Datei die verschiedenen Ausgabe-Dateien (HTML, PDF, XML, Word) zu generieren, werden die Kommandozeilen-Tools https://asciidoctor.org/[Asciidoctor] mit der Erweiterung https://github.com/Alwinator/asciidoctor-lists[asciidoctor-lists] und https://pandoc.org/[Pandoc] benötigt. Die entsprechenden Aufrufe befindet sich im Shell-Skript link:compile.sh[compile.sh]. Das Skript konvertiert die Datei link:article.adoc[article.adoc] im aktuellen Verzeichnis.
+Um aus einer Asciidoc-Datei die verschiedenen Ausgabe-Dateien (HTML, PDF, XML, Word) zu generieren, werden die Kommandozeilen-Tools https://asciidoctor.org/[Asciidoctor] mit der Erweiterung https://github.com/Alwinator/asciidoctor-lists[asciidoctor-lists] und https://pandoc.org/[Pandoc] benötigt. Die entsprechenden Aufrufe befindet sich im Shell-Skript link:compile.sh[compile.sh]. Das Skript konvertiert die Datei link:article.adoc[article.adoc] im aktuellen Verzeichnis. Um die automatisch erzeugten Dateien wieder zu löschen, kann das Skript link:clean.sh[clean.sh] aufgerufen werden.
