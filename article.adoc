@@ -10,6 +10,7 @@ v1.0, 2023-06-05: Rohentwurf
 :source-language: java
 :source-indent: no
 :source-highlighter: rouge
+:xrefstyle: short
 :reproducible:
 
 // Die folgenden Attribute darfst Du gerne anpassen:
@@ -28,8 +29,10 @@ Text kann je nach Bedarf *fett* oder _kursiv_ oder *_fett und kursiv_* formatier
 
 == Tabellen formatieren
 
-Für Tabellen verwende bitte die Tabellenfunktion (keine TABs).
+Für Tabellen verwende bitte die Tabellenfunktion (keine TABs). Eine Referenz einfach per: xref:#table.one[]
+angeben.
 
+[[table.one]]
 .Überschrift der Tabelle
 |===
 |Überschrift Spalte 1 |Überschrift Spalte 2
@@ -48,7 +51,10 @@ Für Tabellen verwende bitte die Tabellenfunktion (keine TABs).
 == Listings einfügen
 
 So sieht ein Listing aus, bitte gebe stets einen Textbezug mit an (bspw. „siehe Listing 1“).
+So erstellt man eine Referenz auf ein Listing: xref:#listing.structure[]
 
+[[listing.structure]]
+[source,text]
 .Direkt im Dokument eingebetteter Quelltext
 ----
 public class HelloWorld {
@@ -58,15 +64,20 @@ public class HelloWorld {
 }
 ----
 
-Der Quelltext für das Listing kann alternativ auch aus einer Datei eingelesen werden, siehe Listing 2.
+Der Quelltext für das Listing kann alternativ auch aus einer Datei eingelesen werden, siehe Listing 2 (Diese Referenz ist manuell im Text angegeben).
+Hier das Listing 2 mit einer automatischen Referenz: xref:#listing.extern[].
 
+[[listing.extern]]
 .Komplett aus einer externen Datei eingebundener Quelltext
 ----
 include::HelloWorld.java[]
 ----
 
 Wenn nur ein Ausschnitt aus der angegebenen Datei eingebunden werden soll, so kann dieser mit Zeilennummern angegeben werden. Siehe Listing 3.
+Hier das Listing 3 mit einer automatischen Referenz: xref:#listing.extern.lines[].
 
+
+[[listing.extern.lines]]
 .Aus einer externen Datei eingebundene Ausschnitte
 ----
 include::HelloWorld.java[lines=2..4]
@@ -83,8 +94,10 @@ Quellenangaben <<TestQuelle>> und Links auf Webseiten <<JavaAktuell>>  sollten i
 == Bilder einbinden
 
 Hier folgt ein Beispiel für eine Abbildung, bitte gebe stets einen Textbezug mit an (bspw. „siehe Abbildung 1“). Bitte speichere die Abbildung separat im Format TIF oder JPEG in möglichst hoher Auflösung ab. EPS mit 300 dpi ist ebenfalls möglich. Wichtig ist die Bildunterschrift mit Copyright-Hinweis!
+Nun auch die Referenz im Text auf die Abbildung: xref:#bild.eins[]. So gemacht wird die Nummerierung automatisch gemacht.
 
 .Dies ist die Bildunterschrift (© [Name, Referenz oder Quelle])
+[id="bild.eins"]
 image::java_aktuell.png[]
 
 
