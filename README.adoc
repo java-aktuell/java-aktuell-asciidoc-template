@@ -9,7 +9,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-[IMPORTANT]
+[WARNING]
 .Diese Vorlage ist noch im Beta-Stadium
 ====
 Bevor du sie benutzt, spreche das bitte mit Marcus Fihlon ab. Vielen Dank! Möglichkeiten zur Kontaktaufnahme:
