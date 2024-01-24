@@ -1,4 +1,5 @@
 = _**Java** aktuell_ Artikelvorlage im Asciidoc Format
+:icons: font
 :reproducible:
 
 [IMPORTANT]
