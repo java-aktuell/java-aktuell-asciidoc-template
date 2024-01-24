@@ -10,13 +10,16 @@ ifdef::env-github[]
 endif::[]
 
 [WARNING]
-.Diese Vorlage ist noch im Beta-Stadium
 ====
-Bevor du sie benutzt, spreche das bitte mit Marcus Fihlon ab. Vielen Dank! Möglichkeiten zur Kontaktaufnahme:
+*Diese Vorlage ist noch im Beta-Stadium!*
+
+Bevor du sie benutzt, spreche das bitte mit Marcus Fihlon ab. Möglichkeiten zur Kontaktaufnahme:
 
 * E-Mail: mailto:marcus@fihlon.swiss[marcus@fihlon.swiss]
 * Matrix: https://matrix.to/#/@mcpringle:matrix.org[@mcpringle:matrix.org]
 * Mastodon: https://fosstodon.org/@McPringle[@McPringle@fosstodon.org ]
+
+_Vielen Dank!_
 ====
 
 == Informationen für Autoren
