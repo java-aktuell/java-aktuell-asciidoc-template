@@ -22,6 +22,8 @@ Dies ist der Vorlauftext des Artikels, der in wenigen Sätzen beschreibt, welche
 
 == Das ist eine Zwischenüberschrift
 
+Bei Zwischenüberschriften gibt es nur eine Ebene. Bitte nicht mehrere Ebenen verwenden! Die Java aktuell Artikel werden zweispaltig gesetzt, da sind verschachtelte Überschriften nicht gut erkennbar.
+
 Nun folgt der eigentliche Artikeltext. Bitte schreibe im Fließtext und gebe die Zeilenschaltung nur am Ende eines Absatzes ein. Zwischen Absätzen verwende bitte eine Leerzeile. Die automatische Trennung bitte ausschalten.
 
 Text kann je nach Bedarf *fett* oder _kursiv_ oder *_fett und kursiv_* formatiert werden. Befehle oder ähnliches im Fliesstext können in `Monospace` geschrieben werden.
