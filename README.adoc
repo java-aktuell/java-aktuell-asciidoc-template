@@ -25,6 +25,7 @@ _Vielen Dank!_
 == Informationen für Autoren
 
 * Die eigentliche Vorlage befindet sich in der Datei link:article.adoc[article.adoc]. Alle anderen Dateien kannst du ignorieren.
+* Benutze bitte keine Funktionen von Asciidoc, die nicht bereits in der link:article.adoc[Vorlage] gezeigt werden! Vermisst du etwas, erstelle bitte einen https://github.com/java-aktuell/javaaktuell-asciidoc-template/issues[Issue auf GitHub] oder nehme mit mailto:marcus@fihlon.swiss[Marcus Fihlon] Kontakt auf.
 * Wenn du zusammen mit einem oder mehreren anderen Autoren am Artikel arbeitest, so kannst du diese in Zeile 2 mit Semikolon `;` getrennt aufführen. Bitte nicht auf mehrere Zeilen verteilen!
 * Wenn du möchtest, kannst du für deine Bilder ein eigenes Verzeichnis anlegen. Passe dann das Attribut `:imagesdir:` entsprechend an. Verwende immer relative Verzeichnisangaben, niemals absolute.
 * Vergiss nicht, beim Einreichen alle nötigen Dateien (Bilder, Quelltext, etc.) mitzuschicken. Sende dazu entweder eine ZIP-Datei per E-Mail an mailto:marcus@fihlon.swiss[Marcus Fihlon] (Verschlüsselung per https://keys.openpgp.org/search?q=marcus.fihlon%40jug.ch[GnuPG] möglich) oder verwende ein GitHub-Repository. Ist das GitHub-Repository privat, lade bitte link:https://github.com/McPringle[Marcus Fihlon] mit entsprechenden Berechtigungen in das GitHub-Repository ein.
